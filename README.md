@@ -1,4 +1,4 @@
-# Wokanda-do-XML-HTML-z-eksportem-przez-FTP
+# Wokanda do XML z eksportem przez FTP
 System pobierania wokand z systemu SAWA do XML/HTML i przesyłania na hosting przez FTP
 
 Program pobiera dane wokand z systemu SAWA (Wydziały: Cywilny, Karny, Rodzinny, Pracy, Penitencjarny) tworząc plik XML z każdej bazy. Po utworzeniu plików XML, wysyła je na serwer FTP w celu umieszczenia ich na E-wokandzie. 

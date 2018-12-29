@@ -4,20 +4,6 @@ System pobierania wokand z systemu SAWA do XML/HTML i przesyłania na hosting pr
 Program pobiera dane wokand z systemu SAWA (Wydziały: Cywilny, Karny, Rodzinny, Pracy, Penitencjarny) tworząc plik XML z każdej bazy. Po utworzeniu plików XML, wysyła je na serwer FTP w celu umieszczenia ich na E-wokandzie. 
 Program można wywoływać cyklicznie w Harmonogramie zadań.
 
-Struktura pliku wynikowego:
-<?xml version="1.0" encoding="WINDOWS-1250"?>
-<Rozprawy>
-<Rozprawa>
-<Sygnatura>Ns 144/2014</Sygnatura>
-<Data>2014-06-30</Data>
-<Strony> </Strony>
-<Sala>8</Sala>
-<Wydział>Wydział Cywilny</Wydzial>
-<Godzina>08:30</Godzina>
-<SygnaturaProkuratury> </SygnaturaProkuratury>
-</Rozprawa>
-</Rozprawy>
-
 Technologia i wymagania
 Program na konsolę, napisany w technologii .NET Framework, w języku C#. Do uruchomienia wymagany jest .NET Framework 4.0. Powinien działać na systemach, na których dostępny jest .NET Framework w wersji 4.0, czyli także w Windows XP.
 Konfiguracja
